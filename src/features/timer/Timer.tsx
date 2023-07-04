@@ -43,10 +43,8 @@ export const Timer: React.FC<ITimerProps> = (props) => {
         <ToggleButton value={IntervalType.REPETITION}>Repetition</ToggleButton>
         <ToggleButton value={IntervalType.WAIT}>Wait</ToggleButton>
       </ToggleButtonGroup>
+      <button onClick={onAddTimer}>+</button>
       <div>{items}</div>
-      <div className={styles.timerFooter}>
-        <button onClick={onAddTimer}>+</button>
-      </div>
     </Card>
   );
 };
