@@ -1,6 +1,6 @@
-import { ITimerInterval } from "./ITimerInterval";
+import { IntervalType } from "../types/IntervalType";
 
 export interface ITimer {
   start(): void;
-  timerInterval: ITimerInterval;
+  intervalType: IntervalType;
 }

@@ -1,0 +1,10 @@
+.timerChild {
+  margin: 1rem;
+}
+
+.timerFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 0.5rem;
+}
