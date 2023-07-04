@@ -1,12 +1,7 @@
-import "./App.css";
-import { Card } from "./components/Card";
+import { Timer } from "./features/timer/Timer";
 
 function App() {
-  return (
-    <Card>
-      Test
-    </Card>
-  );
+  return <Timer />;
 }
 
 export default App;
