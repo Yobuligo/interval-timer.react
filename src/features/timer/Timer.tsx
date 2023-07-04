@@ -1,7 +1,8 @@
 import { ToggleButton, ToggleButtonGroup } from "@mui/material";
 import { useState } from "react";
-import { Card } from "../../components/Card";
-import { ITimer } from "../../model/ITimer";
+
+import { Card } from "../../components/card/Card";
+import { ITimer } from "../../models/ITimer";
 import { IntervalType } from "../../types/IntervalType";
 import { ITimerProps } from "./ITimerProps";
 import styles from "./Timer.module.css";
